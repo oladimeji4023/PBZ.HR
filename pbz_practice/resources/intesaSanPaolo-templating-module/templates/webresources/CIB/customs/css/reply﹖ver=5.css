@@ -1,0 +1,595 @@
+.rgrid_container_mortage {
+  background-color: #ffffff;
+  padding: 54px;
+  border: 1px solid #e6e6e6;
+  border-radius: 8px;
+  box-shadow: 0 6px 12px 0 rgba(134, 134, 134, 0.08);
+}
+@media only screen and (max-width: 767px) {
+  .rgrid_container_mortage {
+    padding: 15px;
+  }
+}
+
+[data-component-r=formStep1Mortagage],
+[data-component-r=formStep2Mortagage],
+[data-component-r=formStep3Mortagage],
+[data-component-r=formStep4Mortagage] {
+  text-align: left;
+}
+[data-component-r=formStep1Mortagage] h3,
+[data-component-r=formStep2Mortagage] h3,
+[data-component-r=formStep3Mortagage] h3,
+[data-component-r=formStep4Mortagage] h3 {
+  margin-top: 0px;
+  font-weight: bold;
+}
+[data-component-r=formStep1Mortagage] .rtitle-accordotion,
+[data-component-r=formStep2Mortagage] .rtitle-accordotion,
+[data-component-r=formStep3Mortagage] .rtitle-accordotion,
+[data-component-r=formStep4Mortagage] .rtitle-accordotion {
+  margin-bottom: 32px;
+  cursor: pointer;
+}
+[data-component-r=formStep1Mortagage] .rtitle-accordotion span,
+[data-component-r=formStep2Mortagage] .rtitle-accordotion span,
+[data-component-r=formStep3Mortagage] .rtitle-accordotion span,
+[data-component-r=formStep4Mortagage] .rtitle-accordotion span {
+  color: #858585;
+}
+[data-component-r=formStep1Mortagage] .rtitle-accordotion .icon,
+[data-component-r=formStep2Mortagage] .rtitle-accordotion .icon,
+[data-component-r=formStep3Mortagage] .rtitle-accordotion .icon,
+[data-component-r=formStep4Mortagage] .rtitle-accordotion .icon {
+  border: 1px solid #e6e6e6;
+  border-radius: 50%;
+  font-size: 9px;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  line-height: 19px;
+  text-align: center;
+  margin-left: 5px;
+}
+[data-component-r=formStep1Mortagage] .rtitle-accordotion .icon.inverted,
+[data-component-r=formStep2Mortagage] .rtitle-accordotion .icon.inverted,
+[data-component-r=formStep3Mortagage] .rtitle-accordotion .icon.inverted,
+[data-component-r=formStep4Mortagage] .rtitle-accordotion .icon.inverted {
+  display: inline-block;
+  transform: scaleY(-1);
+}
+[data-component-r=formStep1Mortagage] [data-accordion=detail],
+[data-component-r=formStep2Mortagage] [data-accordion=detail],
+[data-component-r=formStep3Mortagage] [data-accordion=detail],
+[data-component-r=formStep4Mortagage] [data-accordion=detail] {
+  margin-bottom: 32px;
+}
+[data-component-r=formStep1Mortagage] [data-accordion=detail] .accordion-txt,
+[data-component-r=formStep2Mortagage] [data-accordion=detail] .accordion-txt,
+[data-component-r=formStep3Mortagage] [data-accordion=detail] .accordion-txt,
+[data-component-r=formStep4Mortagage] [data-accordion=detail] .accordion-txt {
+  color: #858585;
+  font-size: 14px;
+  line-height: 1.29;
+}
+[data-component-r=formStep1Mortagage] [data-accordion=detail] .rtitle-accordotion,
+[data-component-r=formStep2Mortagage] [data-accordion=detail] .rtitle-accordotion,
+[data-component-r=formStep3Mortagage] [data-accordion=detail] .rtitle-accordotion,
+[data-component-r=formStep4Mortagage] [data-accordion=detail] .rtitle-accordotion {
+  margin-bottom: 4px;
+  font-weight: bold;
+}
+[data-component-r=formStep1Mortagage] .rcontainer-input,
+[data-component-r=formStep2Mortagage] .rcontainer-input,
+[data-component-r=formStep3Mortagage] .rcontainer-input,
+[data-component-r=formStep4Mortagage] .rcontainer-input {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 16px;
+  height: auto;
+  border-radius: 4px;
+  border: solid 1px #e6e6e6;
+  min-height: 64px;
+  padding: 10px 24px 10px 16px;
+  display: flex;
+  align-items: center;
+}
+
+[data-component-r=formStep1Mortagage] .rcontainer-input input[type=radio],
+[data-component-r=formStep2Mortagage] .rcontainer-input input[type=radio],
+[data-component-r=formStep3Mortagage] .rcontainer-input input[type=radio],
+[data-component-r=formStep4Mortagage] .rcontainer-input input[type=radio] {
+  margin-right: 15px;
+}
+[data-component-r=formStep1Mortagage] .rcontainer-input input[type=radio]:checked,
+[data-component-r=formStep2Mortagage] .rcontainer-input input[type=radio]:checked,
+[data-component-r=formStep3Mortagage] .rcontainer-input input[type=radio]:checked,
+[data-component-r=formStep4Mortagage] .rcontainer-input input[type=radio]:checked {
+  background-color: #6cbda2;
+}
+[data-component-r=formStep1Mortagage] .rcontainer-input span,
+[data-component-r=formStep2Mortagage] .rcontainer-input span,
+[data-component-r=formStep3Mortagage] .rcontainer-input span,
+[data-component-r=formStep4Mortagage] .rcontainer-input span {
+  color: #808080;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.2;
+}
+[data-component-r=formStep1Mortagage] .rcontainer-input.active,
+[data-component-r=formStep2Mortagage] .rcontainer-input.active,
+[data-component-r=formStep3Mortagage] .rcontainer-input.active,
+[data-component-r=formStep4Mortagage] .rcontainer-input.active {
+  box-shadow: 0 0 8px 0 rgba(108, 189, 162, 0.54);
+  border: solid 1px #6cbda2;
+  border-radius: 4px;
+}
+[data-component-r=formStep1Mortagage] .row .rcontainer-input:has(input[type=radio]):has(:focus-visible),
+[data-component-r=formStep2Mortagage] .row .rcontainer-input:has(input[type=radio]):has(:focus-visible),
+[data-component-r=formStep3Mortagage] .row .rcontainer-input:has(input[type=radio]):has(:focus-visible),
+[data-component-r=formStep4Mortagage] .row .rcontainer-input:has(input[type=radio]):has(:focus-visible) {
+  border-radius: 1px;
+  -webkit-box-shadow: 0 0 0 2px #fcee50, 0 0 0 4px #000;
+  box-shadow: 0 0 0 2px #fcee50, 0 0 0 4px #000;
+  border: unset;
+  outline: 0;
+}
+[data-component-r=formStep1Mortagage] .rcontainer-input.active span,
+[data-component-r=formStep2Mortagage] .rcontainer-input.active span,
+[data-component-r=formStep3Mortagage] .rcontainer-input.active span,
+[data-component-r=formStep4Mortagage] .rcontainer-input.active span {
+  color: #000;
+}
+[data-component-r=formStep1Mortagage] .rerror-choice,
+[data-component-r=formStep2Mortagage] .rerror-choice,
+[data-component-r=formStep3Mortagage] .rerror-choice,
+[data-component-r=formStep4Mortagage] .rerror-choice {
+  width: 100%;
+  background-color: #eecfc8;
+  min-height: 64px;
+  display: flex;
+  align-items: center;
+  padding: 16px 32px;
+}
+[data-component-r=formStep1Mortagage] .rerror-choice p,
+[data-component-r=formStep2Mortagage] .rerror-choice p,
+[data-component-r=formStep3Mortagage] .rerror-choice p,
+[data-component-r=formStep4Mortagage] .rerror-choice p {
+  margin-bottom: 0px;
+}
+[data-component-r=formStep1Mortagage] .rerror-choice p span,
+[data-component-r=formStep2Mortagage] .rerror-choice p span,
+[data-component-r=formStep3Mortagage] .rerror-choice p span,
+[data-component-r=formStep4Mortagage] .rerror-choice p span {
+  color: #d83636;
+  margin-right: 10px;
+}
+[data-component-r=formStep1Mortagage] .rcontainer-increase,
+[data-component-r=formStep2Mortagage] .rcontainer-increase,
+[data-component-r=formStep3Mortagage] .rcontainer-increase,
+[data-component-r=formStep4Mortagage] .rcontainer-increase {
+  display: flex;
+  align-items: center;
+}
+[data-component-r=formStep1Mortagage] .rcontainer-increase .rvalue-increase,
+[data-component-r=formStep2Mortagage] .rcontainer-increase .rvalue-increase,
+[data-component-r=formStep3Mortagage] .rcontainer-increase .rvalue-increase,
+[data-component-r=formStep4Mortagage] .rcontainer-increase .rvalue-increase {
+  width: 30px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 21px;
+}
+[data-component-r=formStep1Mortagage] .rhide,
+[data-component-r=formStep2Mortagage] .rhide,
+[data-component-r=formStep3Mortagage] .rhide,
+[data-component-r=formStep4Mortagage] .rhide {
+  display: none;
+}
+[data-component-r=formStep1Mortagage] .rcontainer-import,
+[data-component-r=formStep2Mortagage] .rcontainer-import,
+[data-component-r=formStep3Mortagage] .rcontainer-import,
+[data-component-r=formStep4Mortagage] .rcontainer-import {
+  margin-top: 33px;
+}
+[data-component-r=formStep1Mortagage] .rcontainer-import .mod-hom1,
+[data-component-r=formStep2Mortagage] .rcontainer-import .mod-hom1,
+[data-component-r=formStep3Mortagage] .rcontainer-import .mod-hom1,
+[data-component-r=formStep4Mortagage] .rcontainer-import .mod-hom1 {
+  margin-bottom: 30px;
+}
+[data-component-r=formStep1Mortagage] .rcontainer-import .mod-hom1 .rtitle,
+[data-component-r=formStep2Mortagage] .rcontainer-import .mod-hom1 .rtitle,
+[data-component-r=formStep3Mortagage] .rcontainer-import .mod-hom1 .rtitle,
+[data-component-r=formStep4Mortagage] .rcontainer-import .mod-hom1 .rtitle {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+[data-component-r=formStep1Mortagage] .rcontainer-import .mod-hom1 input,
+[data-component-r=formStep2Mortagage] .rcontainer-import .mod-hom1 input,
+[data-component-r=formStep3Mortagage] .rcontainer-import .mod-hom1 input,
+[data-component-r=formStep4Mortagage] .rcontainer-import .mod-hom1 input {
+  height: 50px !important;
+}
+[data-component-r=formStep1Mortagage] .rcontainer-import .mod-hom1 select,
+[data-component-r=formStep2Mortagage] .rcontainer-import .mod-hom1 select,
+[data-component-r=formStep3Mortagage] .rcontainer-import .mod-hom1 select,
+[data-component-r=formStep4Mortagage] .rcontainer-import .mod-hom1 select {
+  height: 48px !important;
+}
+[data-component-r=formStep1Mortagage] .rcontainer-import .mod-hom1 .addon-select,
+[data-component-r=formStep2Mortagage] .rcontainer-import .mod-hom1 .addon-select,
+[data-component-r=formStep3Mortagage] .rcontainer-import .mod-hom1 .addon-select,
+[data-component-r=formStep4Mortagage] .rcontainer-import .mod-hom1 .addon-select {
+  background-color: white;
+}
+[data-component-r=formStep1Mortagage] .rinput-zipcode input,
+[data-component-r=formStep2Mortagage] .rinput-zipcode input,
+[data-component-r=formStep3Mortagage] .rinput-zipcode input,
+[data-component-r=formStep4Mortagage] .rinput-zipcode input {
+  width: 150px;
+}
+[data-component-r=formStep1Mortagage] .rBtn,
+[data-component-r=formStep2Mortagage] .rBtn,
+[data-component-r=formStep3Mortagage] .rBtn,
+[data-component-r=formStep4Mortagage] .rBtn {
+  background-color: #fdefe6;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border: 0px none;
+}
+[data-component-r=formStep1Mortagage] .rBtn.disabled,
+[data-component-r=formStep2Mortagage] .rBtn.disabled,
+[data-component-r=formStep3Mortagage] .rBtn.disabled,
+[data-component-r=formStep4Mortagage] .rBtn.disabled {
+  background-color: #e6e6e6;
+  color: #cccccc;
+  cursor: default;
+}
+
+.r-form-submit-wrapper {
+  margin-top: 16px;
+  width: 100%;
+  float: left;
+  clear: both;
+  margin-bottom: 200px;
+}
+.r-form-submit-wrapper button {
+  border: 0px none;
+}
+
+.r-component-wrapper {
+  margin-top: 60px;
+}
+
+.r-title {
+  font-size: 40px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.15;
+  letter-spacing: 1.57px;
+  text-align: center;
+  color: #2e2e2e;
+}
+
+.r-title-pbz {
+  font-size: 40px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.15;
+  letter-spacing: 1.57px;
+  text-align: center;
+  color: #2e2e2e;
+}
+
+.r-title-pbz h1{
+  font-size: 40px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.15;
+  letter-spacing: 1.57px;
+  text-align: center;
+  color: #2e2e2e;
+}
+
+.r-title-pbz h2{
+  font-size: 40px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.15;
+  letter-spacing: 1.57px;
+  text-align: center;
+  color: #2e2e2e;
+}
+
+.r-subtitle {
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4d4d4d;
+  margin-bottom: 35px;
+}
+
+.r-form-top-section {
+  margin-bottom: 20px;
+}
+.r-form-top-section .r-form-title {
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.14;
+  letter-spacing: 0.14px;
+  color: #2e2e2e;
+}
+.r-form-top-section .r-progress {
+  float: right;
+}
+.r-form-top-section .r-progress span {
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.14;
+  letter-spacing: 0.14px;
+  text-align: right;
+  color: #2e2e2e;
+}
+.r-form-top-section .r-progress .r-progress-bar {
+  width: 150px;
+  background-color: #e7e7e7;
+  height: 10px;
+  border-radius: 10px;
+  margin-left: 16px;
+  display: inline-block;
+}
+.r-form-top-section .r-progress .r-progress-bar .r-progress-bar-fill {
+  height: 10px;
+  transition: all 1s;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16);
+  width: 0%;
+}
+
+.r-form-submit-wrapper {
+  margin-top: 16px;
+  width: 100%;
+  float: left;
+  clear: both;
+  margin-bottom: 200px;
+}
+.r-form-submit-wrapper button {
+  border: 1px solid #e6e6e6;
+  height: 50px;
+  font-weight: bold;
+  line-height: 50px;
+  background-color: white;
+  color: #4d4d4d;
+  font-size: 16px;
+}
+.r-form-submit-wrapper button:disabled {
+  background-color: #e6e6e6;
+  color: #b3b3b3;
+}
+.r-form-submit-wrapper button:disabled span svg .fill {
+  fill: #b3b3b3;
+}
+.r-form-submit-wrapper button.active {
+  color: white;
+  outline-width: 0px !important;
+}
+.r-form-submit-wrapper button.active span svg .fill {
+  fill: #ffffff;
+}
+.r-form-submit-wrapper button span {
+  vertical-align: middle;
+}
+.r-form-submit-wrapper button span svg {
+  width: 17px;
+  height: 17px;
+}
+.r-form-submit-wrapper button span svg .fill {
+  fill: #808080;
+}
+
+.r-thankyou-page {
+  background-size: cover;
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);
+  padding-top: 100px;
+}
+@media only screen and (max-width: 767px) {
+  .r-thankyou-page {
+    padding-top: 0;
+    margin-top: -10px;
+  }
+}
+.r-thankyou-page .r-thankyou-prewrapper {
+  min-height: calc(100vh - 140px);
+  min-height: -webkit-calc(100vh - 140px);
+  text-align: center;
+  margin: 0 auto;
+  float: none;
+}
+@media only screen and (max-width: 767px) {
+  .r-thankyou-page .r-thankyou-prewrapper {
+    height: auto;
+  }
+}
+.r-thankyou-page .r-thankyou-wrapper {
+  border-radius: 20px;
+  margin: 0 auto;
+  width: 100%;
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.r-thankyou-page .r-thankyou-wrapper .leaveMessage__textItem {
+  width: 350px;
+  max-width: 100%;
+  float: none;
+}
+.r-thankyou-page .r-thankyou-wrapper .recaptchaerror .parsley-required {
+  text-align: center;
+  margin-top: -24px;
+}
+.r-thankyou-page .r-thankyou-wrapper #recaptchainput {
+  width: 300px;
+  max-width: 96%;
+  border: 0px none;
+  height: 0;
+  padding: 0;
+  position: relative;
+  top: -15px;
+  border-radius: 10px;
+}
+@media only screen and (max-width: 767px) {
+  .r-thankyou-page .r-thankyou-wrapper #recaptchainput {
+    top: -24px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .r-thankyou-page .r-thankyou-wrapper {
+    position: relative;
+    margin: auto;
+    transform: none;
+    -ms-transform: none;
+    top: auto;
+  }
+}
+.r-thankyou-page .r-thankyou-wrapper .r-thankyou-time .for__radio {
+  text-align: left;
+  margin-bottom: 16px;
+  height: auto;
+  border-radius: 4px;
+  border: solid 1px #e6e6e6;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  padding: 10px 10px 10px 40px;
+  font-size: 14px;
+  color: #808080;
+}
+.r-thankyou-page .r-thankyou-wrapper .r-thankyou-time .for__radio.active {
+  border: solid 1px #4aac76;
+}
+.r-thankyou-page .r-thankyou-wrapper .r-thankyou-time .for__radio .for__radio__indicator {
+  left: 10px;
+  position: absolute;
+  top: calc(50% - 8px);
+  border: solid 1px #b3b3b3;
+}
+.r-thankyou-page .r-thankyou-wrapper .r-thankyou-title {
+  font-size: 40px;
+  margin-bottom: 8px;
+  color: white;
+}
+.r-thankyou-page .r-thankyou-wrapper .r-thankyou-subtitle {
+  font-size: 16px;
+  margin-bottom: 24px;
+  color: white;
+}
+.r-thankyou-page .r-thankyou-wrapper .r-thankyou-content {
+  border-radius: 4px;
+  box-shadow: 0 6px 12px 0 rgba(134, 134, 134, 0.08);
+  border: #e6e6e6;
+  background-color: white;
+  padding: 40px;
+  font-size: 14px;
+}
+@media only screen and (max-width: 767px) {
+  .r-thankyou-page .r-thankyou-wrapper .r-thankyou-content {
+    padding: 15px;
+  }
+}
+.r-thankyou-page .r-thankyou-wrapper .r-thankyou-content .g-recaptcha {
+  z-index: 9999999;
+  position: relative;
+}
+.r-thankyou-page .r-thankyou-wrapper .r-thankyou-content .for__formItem__prefix, .r-thankyou-page .r-thankyou-wrapper .r-thankyou-content .for__leaveMessage__phoneNumber .trattinoNumber {
+  top: 11px;
+}
+.r-thankyou-page .r-thankyou-wrapper .r-thankyou-content .privacystatus {
+  float: left;
+  margin: 1px 5px 0 0;
+}
+.r-thankyou-page .r-thankyou-wrapper .r-thankyou-content #countryPrefix {
+  color: rgba(0, 0, 0, 0.5);
+  padding-top: 0;
+  font-size: 14px;
+}
+.r-thankyou-page .r-thankyou-wrapper .r-thankyou-content .label-inside label {
+  top: 11px;
+}
+.r-thankyou-page .r-thankyou-wrapper .r-thankyou-content .label-inside .form-control {
+  height: 40px;
+}
+.r-thankyou-page .r-thankyou-wrapper .r-thankyou-content .label-inside .form-control.fc-edited + label {
+  top: 3px;
+}
+.r-thankyou-page .r-thankyou-wrapper .r-thankyou-content .for__containerCalendar {
+  width: 357px;
+  max-width: 100%;
+  margin: 0 auto;
+  float: none;
+  padding: 0;
+  clear: both;
+}
+.r-thankyou-page .r-thankyou-wrapper .r-thankyou-content .for__containerCalendar .for__radio__group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 44px;
+}
+@media only screen and (max-width: 767px) {
+  .r-thankyou-page .r-thankyou-wrapper .r-thankyou-content .for__containerCalendar .for__radio__group {
+    display: block;
+  }
+}
+.r-thankyou-page .r-thankyou-wrapper .r-thankyou-content .leaveMessage__submit {
+  max-width: 100%;
+  width: 357px;
+}
+.r-thankyou-page .r-thankyou-wrapper .r-thankyou-content .r-thankyou-description {
+  color: #4d4d4d;
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+.r-thankyou-page .r-thankyou-wrapper .r-thankyou-content .for__leaveMessage__formItem--fullWidth {
+  width: 357px;
+  margin: 0 auto 30px;
+  float: none;
+  max-width: 100%;
+}
+
+[name=form1Mortgage]:before, [name=form2Mortgage]:before, [name=form3Mortgage]:before, [name=formThanksMortgage]:before {
+  content: "";
+  display: block;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  height: 70px;
+  z-index: 1;
+}
+@media only screen and (max-width: 767px) {
+  [name=form1Mortgage]:before, [name=form2Mortgage]:before, [name=form3Mortgage]:before, [name=formThanksMortgage]:before {
+    display: none;
+  }
+}
+
+.fix-long-placeholder {
+  overflow: hidden;
+  padding-right: 0;
+  border-right: 6px white solid;
+  margin-right: 0;
+}

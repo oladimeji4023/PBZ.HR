@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="9px" viewBox="0 0 16 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>ico/ic_arrow_down</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill-rule="evenodd">
+        <g id="ico/ic_arrow_down" fill="#656666">
+            <g id="ico/arrow_down">
+                <path d="M12.1601899,4.15570615 C12.2030655,4.48949049 12.096297,4.83894321 11.8407468,5.0944934 L5.59614917,11.3390911 C5.15754133,11.7776989 4.44979586,11.7810772 4.00853161,11.339813 C3.57032248,10.9016039 3.57200285,10.1894461 4.00925354,9.75219544 L9.53597626,4.22547272 L4.00634241,-1.30416114 C3.57540476,-1.73509878 3.57025888,-2.42864086 4.00151781,-2.85989979 C4.42979091,-3.28817289 5.12391691,-3.28841476 5.55725647,-2.8550752 L11.8355874,3.42325577 C12.039482,3.62715032 12.1480575,3.88983228 12.1601899,4.15570615 Z" id="Combined-Shape" transform="translate(7.925000, 4.244406) rotate(90.000000) translate(-7.925000, -4.244406) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
